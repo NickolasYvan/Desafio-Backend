@@ -1,0 +1,7 @@
+# Normaliza o fim de linha. Scripts executados no Linux precisam de LF mesmo quando o commit vem do Windows.
+* text=auto
+mvnw text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+Dockerfile text eol=lf
+*.sql text eol=lf
